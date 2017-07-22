@@ -11,6 +11,10 @@ function nameInputVal(){
 			$("#newUserName").html(name);
 			return true;
 		}
+		if(name==""){
+			alert("You can not leave the name field empty!");
+			return false;
+		}
 		else{
 			alert("That is not a valid name!");
 			return false;
@@ -28,6 +32,10 @@ function surnameInputVal(){
 			alert("Surname is valid!");
 			$("#newUserSurname").html(surname);
 			return true;
+		}
+		if(surname==""){
+			alert("You can not leave the surname field empty!");
+			return false;
 		}
 		else{
 			alert("That is not a valid surname!");
@@ -48,6 +56,10 @@ function passInputVal(){
 			$("#newUserPassword").html(pass);
 			return true;
 		}
+		if(pass==""){
+			alert("You can not leave the password field empty!");
+			return false;
+		}
 		else{
 			alert("That is not a valid password!");
 			return false;
@@ -65,6 +77,10 @@ function emailInputVal(){
 			alert("Email is valid!");
 			$("#newUserEmail").html(email);
 			return true;
+		}
+		if(email==""){
+			alert("You can not leave the email field empty!");
+			return false;
 		}
 		else{
 			alert("That is not a valid email address!");
