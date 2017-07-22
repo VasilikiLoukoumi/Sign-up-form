@@ -1,0 +1,41 @@
+
+.plainText, .userInput, .btns{
+	margin-top:20px;
+	display:block;
+}
+
+#inputForm{
+	float:left;
+}
+#showForm{
+	float:right;
+	display:none;
+}
+
+p{
+	padding:5px;
+	border:2px double orange;
+}
+
+h5{
+	text-decoration:underline;
+	color:blue;
+}
+
+.fa{
+	color:red;
+}
+
+#myName{
+	margin-top:20px;
+	font-size:10px;
+	text-align:center;
+	margin-left:0 auto;
+	margin-right:0 auto;
+	display:block;
+	width:auto;
+}
+
+.fa-registered{
+	margin-right:5px;
+}

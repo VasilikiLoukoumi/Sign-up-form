@@ -1,0 +1,70 @@
+
+<DOCTYPE html>
+
+<html>
+<head>
+<title>Sign up form</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<!--Font awesome icons-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--My styling-->
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+<div class="container">
+
+<h4>Sign up form, 
+created with: html5/css/bootstrap/javascript/jquery</h4>
+<blockquote>
+<i class="fa fa-exclamation" aria-hidden="true"></i>
+Password must contain 
+6 to 20 characters,
+ at least one numeric digit, one uppercase, and one lowercase letter.
+</blockquote>
+
+<div id="inputForm">
+<label class="plainText">Name:</label>
+<input class="userInput form-control" type="text" id="name" name="name">
+<label class="plainText">Surname:</label>
+<input class="userInput form-control" type="text" id="surname" name="name">
+<label class="plainText">Password:</label>
+<input class="userInput form-control" type="password" id="password" name="name">
+<label class="plainText">Email:</label>
+<input class="userInput form-control" type="email" id="email" name="name">
+
+<button class="btns btn btn-primary" id="chkBtn">Check</button>
+</div>
+
+<div id="showForm">
+
+<h5>New user registration</h5>
+<label class="plainText">Name:</label>
+<p id="newUserName"> </p>
+<label class="plainText">Surname:</label>
+<p id="newUserSurname"></p>
+<label class="plainText">Password:</label>
+<p id="newUserPassword"></p>
+<label class="plainText">Email:</label>
+<p id="newUserEmail"></p>
+
+
+</div>
+</div>
+<!--My script-->
+<script src="script.js"></script>
+
+<label id="myName"><i class="fa fa-registered" aria-hidden="true"></i><em>Vasiliki Loukoumi, 2017</em></label>
+</body>
+</html>
